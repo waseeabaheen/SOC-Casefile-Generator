@@ -1,0 +1,12 @@
+{
+  "title": "Suspicious sign-in activity",
+  "time": "2026-01-04T10:15:00Z",
+  "severity": "High",
+  "source": "Microsoft Sentinel",
+  "entity": "user@company.com",
+  "indicators": [
+    "185.12.33.10",
+    "Impossible travel",
+    "Multiple failed logons"
+  ]
+}

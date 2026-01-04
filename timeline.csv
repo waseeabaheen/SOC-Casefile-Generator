@@ -1,0 +1,5 @@
+Marker,Time,ActionType,Detail,Owner/Notes
+T0,2026-01-04T10:15:00Z,Alert Triggered,Suspicious sign-in activity,High
+T1,2026-01-04T10:17:00Z,Triage,Validated alert and collected user sign-in logs,SOC
+T2,2026-01-04T10:23:00Z,Containment,Forced password reset and revoked sessions,IAM
+T3,2026-01-04T10:40:00Z,Recovery,Enabled MFA and updated conditional access policy,IAM
