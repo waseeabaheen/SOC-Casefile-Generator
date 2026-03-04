@@ -1,8 +1,8 @@
 # SOC Casefile Generator
 
 Automation tool that converts an alert JSON + actions JSON into:
-- `outputs/casefile.md` (SOC casefile template)
-- `outputs/timeline.csv` (chronological incident timeline)
+- `casefile.md` (SOC casefile template)
+- `timeline.csv` (chronological incident timeline)
 
 ## Run
 ```bash
