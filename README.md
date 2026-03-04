@@ -7,7 +7,7 @@ Automation tool that converts an alert JSON + actions JSON into:
 ## Run
 ```bash
 pip install -r requirements.txt
-python casefile_generator.py --alert alert.json --actions actions.json
+python generator.py --alert alert.json --actions actions.json --outdir .
 ```
 
 ## Why this matters (SOC workflow)
