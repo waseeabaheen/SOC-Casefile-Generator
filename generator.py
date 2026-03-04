@@ -49,9 +49,9 @@ def write_casefile_md(alert, rows, out_path):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--alert", default="inputs/alert.json")
-    ap.add_argument("--actions", default="inputs/actions.json")
-    ap.add_argument("--outdir", default="outputs")
+    ap.add_argument("--alert", default="alert.json")
+    ap.add_argument("--actions", default="actions.json")
+    ap.add_argument("--outdir", default=".")
     args = ap.parse_args()
 
     alert = load_json(args.alert)
